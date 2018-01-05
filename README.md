@@ -1,4 +1,4 @@
-使用的软件有：Python3*，sklearn，jieba，gemsim
+使用的软件：Python3*，sklearn，jieba，gemsim
 
 dataset.rar是测试数据，来自其他网站
 nlp_one_hot.py 使用词袋模型和ne_hot编码提取特征词，进而进行模型训练
