@@ -71,11 +71,11 @@ def get_word_vec(segment_list, all_word_list):
 
 if __name__ == "__main__":
     """
-    数据集在路径D:/pythonprogram/nlp/dataset/下
+    数据集在路径D:/nlp/dataset/下
     """
-    bad_info_filename = 'D:/pythonprogram/nlp/dataset/bad.txt'
-    good_info_filename = "D:/pythonprogram/nlp/dataset/good.txt"
-    stop_info_filename = "D:/pythonprogram/nlp/dataset/stop.txt"
+    bad_info_filename = 'D:/nlp/dataset/bad.txt'
+    good_info_filename = "D:/nlp/dataset/good.txt"
+    stop_info_filename = "D:/nlp/dataset/stop.txt"
     jieba.analyse.set_stop_words(stop_info_filename)
     stopword_list = get_stopword(stop_info_filename)
 
