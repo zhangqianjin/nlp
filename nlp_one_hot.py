@@ -70,9 +70,9 @@ if __name__ == "__main__":
     """
     数据集在路径D:/pythonprogram/nlp/dataset/下
     """
-    bad_info_filename = 'D:/pythonprogram/nlp/dataset/bad.txt'
-    good_info_filename = "D:/pythonprogram/nlp/dataset/good.txt"
-    stop_info_filename = "D:/pythonprogram/nlp/dataset/stop.txt"
+    bad_info_filename = 'nlp/dataset/bad.txt'
+    good_info_filename = "nlp/dataset/good.txt"
+    stop_info_filename = "nlp/dataset/stop.txt"
     stopword_list = get_stopword(stop_info_filename)
     bad_segment_list, bad_word_set, bad_content_list = readdata(bad_info_filename,0,stopword_list)
     good_segment_list, good_word_set, good_content_list = readdata(good_info_filename, 0, stopword_list)
